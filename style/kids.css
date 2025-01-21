@@ -1,6 +1,7 @@
 body{
     background-color: #f7f7f7;;
 }
+/*navbar section*/
 .banner{
     display: flex;
     justify-content: space-between;
@@ -36,18 +37,22 @@ body{
 }
 .list-1{
     color: #FDA501;
-    font-weight: bold;
+    border: none;
 }
 .list-2{
     color: #4Dc4FB;
+    border: none;
 }
 .list-3{
     color: #23d8e2;
+   
     
 }
 .list-4{
     color: #5d58ef;
+    border: none;
 }
+/*banner images section*/
 .banner-section{
     display: flex;
     justify-content: space-between;
@@ -55,7 +60,8 @@ body{
     padding: 50px 100px;
 }
 .bannerInner{
-    margin-top: 50px;
+    margin-top: 40px;
+    text-align: center;
     width: 600px;
     
 }
@@ -73,4 +79,62 @@ body{
     background-color: #111111;
     width: 155px;
     height: 30px;
+}
+/*standard curriculam section*/
+
+.bg-banner{
+    background-image: url(/assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 950px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10%;
+    font-size: 2.5rem;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.card-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    gap:20px
+  
+}
+.card-1, .card-2, .card-3{
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    width: 550px;  
+    height: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.card-1 img, .card-2 img, .card-3 img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.cardPara{
+    font-size: 1rem;
+    color: #8c8c8c;
+    margin-bottom: 15px;
+    line-height: 1.5;
+
 }
