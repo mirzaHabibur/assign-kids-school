@@ -138,3 +138,49 @@ h3{
     line-height: 1.5;
 
 }
+/*stories section*/
+.innerStories{
+    background-image: url(/assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 950px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 10%;
+}
+
+.innerImage{
+    display: flex;
+    flex-direction: column;
+}
+.images{
+background: #ffffff;
+border: 1px solid #f7f7f7;
+border-radius: 15px;
+width: 640px;
+height: 650px;
+margin: 50px;
+}
+.images img{
+    width: 100%;
+    border-radius: 10px;
+}
+.btn-primary-card{
+    background-color: #3cd8e8;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+.heading-content{
+     font-size: 25px;
+     font-weight: bolder;
+     margin-left: 50px;
+
+}
+.text1{
+    color: #676767;
+    margin-left: 50px;
+}
