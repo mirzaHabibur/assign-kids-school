@@ -55,6 +55,7 @@ body{
 /*banner images section*/
 .banner-section{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 50px 100px;
@@ -91,6 +92,7 @@ body{
     padding: 30px;
     box-sizing: border-box;
 }
+
 .heading{
     text-align: center;
     color: #000000;
@@ -357,13 +359,43 @@ margin: 50px;
 }
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:576px){
     #footer-inner{
         display: flex;
         flex-direction: column;
-        padding: 50px;
+        text-align: center;
+        padding: 20px;
+        margin: 0 auto;
+       
     }
     .carouselBtn{
         visibility: hidden;
+    }
+    .banner-section{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+       
+       
+    }
+    .images{
+        visibility: hidden;
+    }
+    .story-card{
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
+        
+        
+       
+    }
+    .heading{
+        margin: 0 auto;
+        font-size: 1.8rem;
+        font-family: "Quicksand", serif;
+        font-weight: 500;
+        font-style: normal;
     }
 }
